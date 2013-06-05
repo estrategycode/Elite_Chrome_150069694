@@ -20,17 +20,25 @@
 
 <div class="main_content_holder">
  <div class="mainContainer">
-  <div class="slideshow">
-  <img src="/CustomData/150069694/images/slide1.jpg">
-  <img src="/CustomData/150069694/images/slide2.jpg">
-  <img src="/CustomData/150069694/images/slide3.jpg">
-  <img src="/CustomData/150069694/images/slide4.jpg">
-  <img src="/CustomData/150069694/images/slide5.jpg">
-  </div>
+	<div class="slideshowwrap">
+		<div class="slideshow">
+			<img src="/CustomData/150118509/images/slides/slide1.jpg">
+			<img src="/CustomData/150118509/images/slides/slide2.jpg">
+			<img src="/CustomData/150118509/images/slides/slide3.jpg">
+			<img src="/CustomData/150118509/images/slides/slide4.jpg">
+			<img src="/CustomData/150118509/images/slides/slide5.jpg">
+			<img src="/CustomData/150118509/images/slides/slide6.jpg">
+			<img src="/CustomData/150118509/images/slides/slide7.jpg">
+			<img src="/CustomData/150118509/images/slides/slide8.jpg">
+			<img src="/CustomData/150118509/images/slides/slide9.jpg">
+			<img src="/CustomData/150118509/images/slides/slide10.jpg">
+		</div>
+        <div class="SlideText">Your #1 Source for Luxury Real Estate in Your Hometown</div>
+    </div>
 
 <div class="mainImpulseButtons">
-	<div class="impulse1"><a href="#"><img src="/CustomData/150069694/images/impulse1.jpg" /></a></div>
-    <div class="impulse2"><a href="#"><img src="/CustomData/150069694/images/impulse2.jpg" /></a></div>
+	<a class="impulse1" href="#"><div class="impulsebtn"><div class="cover"></div><h1>Featured Properties</h1><div class="pic imp1"></div><p>Click to see the latest featured listings now available in Your Hometown!</p></div></a>
+	<a class="impulse2" href="#"><div class="impulsebtn"><div class="cover"></div><h1>Bonnie Hoffman</h1><div class="pic imp2"></div><p>123 Example St.<br />Your Hometown, FL<br />Office: 888.888.8888<br />Cell: 888.888.8888</p></div></a>
 </div>
 
 </div>

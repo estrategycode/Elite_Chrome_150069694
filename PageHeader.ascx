@@ -1,45 +1,37 @@
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic|Niconne|Oleo+Script:400,700|Della+Respira|Radley:400,400italic|Donegal+One' rel='stylesheet' type='text/css'>
 <%@Import Namespace="eNCore.eNShared" %>
 <%@ Register TagPrefix="uc1" TagName="MyProfileSignOn" Src="~/enSharedControls/CustomControls/BrandControls/eN/MyProfileSignOn.ascx" %>
 <%@ Register TagPrefix="uc1" TagName="Branding" Src="~/eNPropertySearch/CustomControls/Branding_uc.ascx" %>
 <%-- Page Header START  --%>
-  
-  <div class="pos">
-   
-  
+<div class="topbar">
+	<div class="content">
+		<span class="socialMedia">
+			<a href="#"><span class="impulseButton fb">F</span></a> 
+			<a href="#"><span class="impulseButton twitter">T</span></a> 
+			<a href="#"><span class="impulseButton linkedin">I</span></a> 
+			<a href="#"><span class="impulseButton youtube">X</span></a>
+  		</span>
+        <uc1:MyProfileSignOn id="MyProfileSignOn_uc" runat="server" /> 
+  </div>
+</div>
+<div class="pos">
+	<header class="BannerInfo">
+    	<div class="RealtorLogo">
+        	<img src="/CustomData/150118509/images/prudential.png">
+        </div>
+    	<h1>Hometown Real Estate</h1>
+        <div class="bar">
+        	<h3>Your Hometown, FL - Buroughs, Subdivisions, Market - 555.555.5555</h3>
+        </div>
+        <div class="AgentPic">
+        	<img src="/CustomData/150118509/images/agentpic.jpg">
+        </div>
+    </header>
 
-       <uc1:MyProfileSignOn id="MyProfileSignOn_uc" runat="server" /> 
+
+
            <aside class="branding">         
            </aside>
-       <uc1:Branding id="Branding_uc" runat="server" /> 
-
-
- <div class="socialMedia">
-                    	<a href="http://www.facebook.com" target="_blank"><img src="/CustomData/150069694/images/facebook.png" /></a>
-                        <a href="http://www.twitter.com" target="_blank"><img src="/CustomData/150069694/images/twitter.png" /></a>
-                        <a href="http://www.linkedin.com" target="_blank"><img src="/CustomData/150069694/images/linkedin.png" /></a>
-                        <a href="http://www.youtube.com" target="_blank"><img src="/CustomData/150069694/images/youtube.png" /></a>
-                    </div>
-     
-     
-      
-	   <!--div class="slideshowWrap">
-      
-      
-      <div id="headerSlideshow" class="slideshow">
-         <img src="/CustomData/150069694/images/slide1.jpg">
-         <img src="/CustomData/150069694/images/slide2.jpg">
-         <img src="/CustomData/150069694/images/slide3.jpg">
-         <img src="/CustomData/150069694/images/slide4.jpg">
-         <img src="/CustomData/150069694/images/slide5.jpg">
-         <img src="/CustomData/150069694/images/slide6.jpg">
-         <img src="/CustomData/150069694/images/slide7.jpg">
-         <img src="/CustomData/150069694/images/slide8.jpg">
-        
-		</div><!-- end of slideshow -->
-
-   </div--><!-- end of slideshowWrap -->
-
-
-
+       <uc1:Branding id="Branding_uc" runat="server" />     
 </div><!-- end of header > .pos -->  
  
